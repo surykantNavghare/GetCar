@@ -1,0 +1,229 @@
+.slider {
+  background: url('../public/Images/bg.jpg'), linear-gradient(0deg, var(--third) 50%, var(--third));
+  height: 80vh;
+  background-size: cover;
+  font-size: 4rem;
+  color: var(--first);
+  display: flex;
+  justify-content: center;
+  background-blend-mode: screen;
+  text-decoration: underline double;
+  text-align: center;
+}
+:root {
+  --first: #363062;
+  --second: #435585;
+  --third: #818FB4;
+  --four: #F5E8C7;
+}
+.text {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.heading{
+    margin-top: 20vh;
+  animation: headingani 20s infinite alternate-reverse cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.8s ease;
+}
+.display {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 450px;
+  gap: 10px;
+  object-fit: fill;
+}
+ul {
+  margin-bottom: 0;
+}
+.display2 img {
+  height: 200px;
+}
+.display2 {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 100px;
+}
+.about-containt {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 20px;
+}
+.about-containt h4 {
+  text-align: center;
+}
+.about-containt div {
+  box-shadow: 0px 0px 20px 5px var(--third);
+  border: 1px solid var(--third);
+  padding: 20px;
+}
+#why {
+  margin: auto;
+  width: 80%;
+}
+.display-service {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.table {
+  margin: 100px auto;
+  width: 50%;
+  background-color: var(--first);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+  border-radius: 20px;
+}
+.table input,
+.table p,
+.table select {
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  color: var(--third);
+  width: 100%;
+}
+.table button {
+  width: 10rem;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 10px;
+  float: right;
+  background-color: var(--four);
+  color:var(--first);
+}
+
+.links {
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--third);
+  font-size: 30px;
+}
+.links:hover {
+  color: var(--first);
+  background-color: var(--third);
+}
+.table button:hover {
+  color: var(--four);
+  background-color: var(--third);
+}
+.display-nav {
+  background-color: var(--first);
+}
+.car
+{
+  position: absolute;
+  background: url(../public/Images/tree-bg.png);
+  width: 100%;
+  background-size:80vh;
+  background-repeat: repeat-x;
+  height: 80vh;
+  animation: carani 3s linear infinite forwards;
+}
+#car
+{
+  position: inherit;
+  top:67vh;
+}
+.carimg
+{
+  opacity: 0;
+}
+.hovereff
+{
+  perspective: 150px;
+}
+
+.hovereff:hover .logo 
+{
+    transform: rotateX(45deg);
+}
+.hovereff:hover .carimg
+{
+  opacity: 100%;
+}
+@keyframes headingani {
+  0%
+  {
+    transform: translateX(-3000px);
+  }
+  10%
+  {
+    transform: translateX(0);
+  }
+  90%
+  {
+    transform: translateX(0);
+  }
+  100%
+  {
+    transform: translateX(-3000px);
+  }
+}
+@keyframes carani {
+  from
+  {
+    background-position: 0;
+  } 
+  to
+  {
+    background-position: -770px;
+  }
+}
+@media only screen and (max-width:1228px) {
+  .display {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .display2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .about-containt {
+    grid-template-columns: 1000px;
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (max-width:1000px) {
+  
+  .about-containt {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .table
+  {
+    grid-template-columns: 1fr;
+  }
+  .table input
+  {
+    margin-bottom: 50px; 
+  }
+  .heading
+  {
+    margin: 20px;
+    margin-top: 20vh;
+    font-size: 2rem;
+  }
+  .display
+  {
+    margin: 20px;
+  }
+}
