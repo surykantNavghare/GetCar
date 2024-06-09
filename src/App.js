@@ -1,15 +1,17 @@
 import React from 'react';
-import { Route, Routes, HashRouter, NavLink, Link } from 'react-router-dom';
+import { Route, Routes, BrowserRouter, NavLink, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import Footer from './Footer';
 import About from './About';
 import Service from './Service';
 import Payment from './Payment';
+
+const basename = '/Car-Project';
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter basename={basename}>
         <NavLink style={{ textDecoration: 'none' }}>
           <nav class="navbar navbar-expand-lg navbar-light display-nav text-center">
             <div><img src='../Images/logo.png' style={{ height: '80px', width: '80px' }} alt='...'/><p style={{color:'var(--third)'}}>GetCar.com</p></div>
@@ -40,7 +42,7 @@ function App() {
           <Route path="/service" element={<Service />} />
           <Route path="/payment" element={<Payment />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <div className='container-fluid'>
         <Footer />
         
