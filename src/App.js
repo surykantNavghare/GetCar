@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <NavLink style={{ textDecoration: 'none' }}>
           <nav class="navbar navbar-expand-lg navbar-light display-nav text-center">
-            <div><img src='../Images/logo.png' style={{ height: '80px', width: '80px' }} /><p style={{color:'var(--third)'}}>GetCar.com</p></div>
+            <div><img src='../Images/logo.png' style={{ height: '80px', width: '80px' }} alt='...'/><p style={{color:'var(--third)'}}>GetCar.com</p></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>

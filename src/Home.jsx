@@ -5,7 +5,7 @@ import Brands from './Brands';
 let Home = () => {
     return <>
          <div className='car'>
-            <img src="../Images/suv.png" alt="" id='car'/>
+            <img src="../Images/suv.png" alt="logo" id='car'/>
          </div>
         <div className='row slider'>
             <div className='heading'>Let dreams comes true with GetCar.com</div>
