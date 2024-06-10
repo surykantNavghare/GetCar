@@ -206,6 +206,10 @@ ul {
     grid-template-rows: auto;
     margin: 20px;
   }
+  .display-service
+  {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 @media only screen and (max-width:768px) {
   .table
@@ -215,6 +219,9 @@ ul {
   .table input
   {
     margin-bottom: 50px; 
+  }
+  .display-service{
+    grid-template-columns: 1fr;
   }
   .heading
   {
