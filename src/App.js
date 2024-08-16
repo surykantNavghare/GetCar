@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Routes, HashRouter, NavLink, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
@@ -6,14 +6,20 @@ import Footer from './Footer';
 import About from './About';
 import Service from './Service';
 import Payment from './Payment';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with a duration of 1000ms
+  }, []);
+
   return (
     <>
       <HashRouter>
         <NavLink style={{ textDecoration: 'none' }}>
-          <nav class="navbar navbar-expand-lg navbar-light display-nav text-center">
+        <nav class="navbar navbar-expand-lg navbar-light display-nav text-center">
             <div><img src={`${process.env.PUBLIC_URL}/Images/logo.png`} style={{ height: '80px', width: '80px' }} alt='...'/><p style={{color:'var(--third)'}}>GetCar.com</p></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -34,7 +40,8 @@ function App() {
                 </li>
               </ul>
             </div>
-          </nav>
+            </nav> 
+         
         </NavLink>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -43,9 +50,8 @@ function App() {
           <Route path="/payment" element={<Payment />} />
         </Routes>
       </HashRouter>
-      <div className='container-fluid'>
+      <div className='container-fluid' data-aos="fade-up">
         <Footer />
-        
       </div>
     </>
   );

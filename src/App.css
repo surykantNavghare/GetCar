@@ -16,6 +16,36 @@
   --third: #818FB4;
   --four: #F5E8C7;
 }
+.bg-1{
+  background-color: var(--first);
+}
+.bg-2{
+  background-color: var(--second);
+}
+.bg-3{
+  background-color: var(--third);
+}
+.bg-4{
+  background-color: var(--four);
+}
+.font-1{
+  color: var(--first);
+}
+.font-2{
+color: var(--second);
+}
+.font-3{
+color: var(--third);
+}
+.font-4{
+color: var(--four);
+}
+
+
+
+
+
+
 .text {
   text-align: center;
   font-size: 3rem;
@@ -26,7 +56,7 @@
     margin-top: 20vh;
   animation: headingani 20s infinite alternate-reverse cubic-bezier(0.68, -0.55, 0.265, 1.55); 
 }
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -36,48 +66,50 @@
   margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 450px;
+  grid-template-rows: 500px;
   gap: 10px;
   object-fit: fill;
+  padding: 20px;
 }
-ul {
+
+ul{
   margin-bottom: 0;
 }
 .display2 img {
   height: 200px;
 }
-.display2 {
+.display2{
   margin: 20px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-gap: 100px;
 }
-.about-containt {
+.about-containt{
   display: grid;
   margin: 20px auto;
   grid-template-columns: repeat(3, 400px);
   grid-gap: 20px;
 }
-.about-containt h4 {
+.about-containt h4{
   text-align: center;
 }
-.about-containt div {
+.about-containt div{
   box-shadow: 0px 0px 20px 5px var(--third);
   border: 1px solid var(--third);
   padding: 20px;
 }
-#why {
+#why{
   margin: auto;
   width: 80%;
 }
-.display-service {
+.display-service{
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
-.table {
+.table{
   margin: 100px auto;
   width: 50%;
   background-color: var(--first);
@@ -88,7 +120,7 @@ ul {
 }
 .table input,
 .table p,
-.table select {
+.table select{
   height: 40px;
   font-size: 20px;
   padding: 5px;
@@ -110,7 +142,7 @@ ul {
   padding: 10px;
   border-radius: 10px;
   color: var(--third);
-  font-size: 30px;
+  font-size: 25px;
 }
 .links:hover {
   color: var(--first);
@@ -122,6 +154,7 @@ ul {
 }
 .display-nav {
   background-color: var(--first);
+  height: 120px;
 }
 .car
 {
@@ -132,11 +165,13 @@ ul {
   background-repeat: repeat-x;
   height: 80vh;
   animation: carani 3s linear infinite forwards;
+  z-index: 1000;
 }
 #car
 {
+  z-index: 1000;
   position: inherit;
-  top:67vh;
+  top:65vh;
 }
 .carimg
 {

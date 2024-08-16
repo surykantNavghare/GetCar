@@ -3,10 +3,10 @@ import React from "react";
 let Payment =() =>
 {
     return <>
-        <div className="border-bottom text">
+        <div className="border-bottom text" data-aos="fade-up">
                 <h1 className="text">Payment</h1>
         </div>
-        <div className="row">
+        <div className="row" data-aos="flip-left">
                <div className="table">
                 <p>Name :</p><input type="text" placeholder="Enter Name"/>
                 <p>Email :</p><input type="text" placeholder="Enter Email"/>

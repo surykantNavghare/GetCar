@@ -4,30 +4,31 @@ let Footer = () =>
 {
     return <>
     <footer className="bg-body-tertiary text-center text-lg-start border-top mt-4">
-            <div className="container p-4">
-                <div className="row">
+            <div className="p-4 bg-3">
+                <div className="row font-1">
                     <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h5 className="text-uppercase">Footer text</h5>
+                        <h5 className="text-uppercase">GetCar</h5>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                            voluptatem veniam, est atque cumque eum delectus sint!
+                        At GetCar, we are committed to providing top-notch services and products. Our dedication to excellence ensures that every experience with us is a positive one. Whether you're here to browse, shop, or learn, we're here to support you every step of the way.
                         </p>
-                       <p> <i class="fa-solid fa-phone"></i></p>
+                       
                     </div>
                     <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h5 className="text-uppercase">Footer text</h5>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                            voluptatem veniam, est atque cumque eum delectus sint!
+                        <h5 className="text-uppercase">Contact</h5>
+                        <p className="d-flex justify-content-center">
+                        <i className="fab fa-twitter p-3" style={{fontSize:'30px'}}></i>
+                        <i className="fab fa-whatsapp p-3" style={{fontSize:'30px'}}></i>
+                        <i className="fas fa-envelope p-3" style={{fontSize:'30px'}}></i>
+                        <i className="fab fa-linkedin-in p-3" style={{fontSize:'30px'}}></i>
+                        <i class="fa-solid fa-phone p-3" style={{fontSize:'30px'}}></i>
                         </p>
                     </div>
                 </div>
             </div>
-            <div className='text-center p-3' style={{backgroundColor:'rgba(0, 0, 0, 0.05)'}}>
-                © 2020 Copyright:
-                <p className='text-body' href="#">MDBootstrap.com</p>
+            <div className='text-center p-3 bg-1 font-3'>
+            © 2024 GetCar. All Rights Reserved.
+            Terms of Service | Privacy Policy
+                <p className='font-3' href="#">GetCar.com</p>
             </div>
         </footer>
     </>
