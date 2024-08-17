@@ -20,7 +20,7 @@ let Footer = () =>
                         <i className="fab fa-whatsapp p-3" style={{fontSize:'30px'}}></i>
                         <i className="fas fa-envelope p-3" style={{fontSize:'30px'}}></i>
                         <i className="fab fa-linkedin-in p-3" style={{fontSize:'30px'}}></i>
-                        <i class="fa-solid fa-phone p-3" style={{fontSize:'30px'}}></i>
+                        <i className="fa-solid fa-phone p-3" style={{fontSize:'30px'}}></i>
                         </p>
                     </div>
                 </div>

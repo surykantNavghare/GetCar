@@ -40,7 +40,7 @@ let Service = () => {
                 </div>
                 <div className="card" style={{ width: "18rem" }} data-aos="flip-left">
                     <img src={`${process.env.PUBLIC_URL}/Images/business.png`} className="card-img-top" alt="..." style={{height:'200px',width:'200px',margin:'auto'}}/>
-                    <div class="card-body">
+                    <div className="card-body">
                         <h5 className="card-title">Business</h5>
                         <p className="card-text">Elevate your business with our tailored solutions and expert services. From strategic consulting to operational support, we provide the tools and insights you need to drive growth and achieve your goals.</p>
 
