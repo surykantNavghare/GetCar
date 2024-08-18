@@ -21,14 +21,7 @@ let Brands = () => {
     return (
         <div className='display2'>
             <div className='hovereff' data-aos="flip-left">
-                {!imageLoaded.bmw && (
-                    <BlurhashCanvas
-                        hash="LTIFGC%M-PV@?bbIRjxZ=^V@_Na}"
-                        width={200}
-                        height={200}
-                        punch={1}
-                    />
-                )}
+                
                 <img
                     src={`${process.env.PUBLIC_URL}/Images/bmw-logo.png`}
                     alt=''
@@ -46,14 +39,7 @@ let Brands = () => {
                 />)}
             </div>
             <div className='hovereff' data-aos="flip-left">
-                {!imageLoaded.audi && (
-                    <BlurhashCanvas
-                        hash="LKM@ZTt6~qoz%MofkCayE2bHt5ad"
-                        width={200}
-                        height={200}
-                        punch={1}
-                    />
-                )}
+               
                 <img
                     src={`${process.env.PUBLIC_URL}/Images/audi.png`}
                     alt=''
@@ -72,14 +58,7 @@ let Brands = () => {
                 />)}
             </div>
             <div className='hovereff' data-aos="flip-left">
-                {!imageLoaded.mercedes && (
-                    <BlurhashCanvas
-                        hash="L6PZfSi_.AyE_3t7t7R**0o#DgR4"
-                        width={200}
-                        height={200}
-                        punch={1}
-                    />
-                )}
+               
                 <img
                     src={`${process.env.PUBLIC_URL}/Images/mercedes.png`}
                     alt=''
@@ -99,14 +78,7 @@ let Brands = () => {
                 )}
             </div>
             <div className='hovereff' data-aos="flip-left">
-                {!imageLoaded.rollsRoyce && (
-                    <BlurhashCanvas
-                        hash="L6PZfSi_.AyE_3t7t7R**0o#DgR4"
-                        width={200}
-                        height={200}
-                        punch={1}
-                    />
-                )}
+                
                 <img
                     src={`${process.env.PUBLIC_URL}/Images/rolls-royce.png`}
                     alt=''
@@ -126,14 +98,7 @@ let Brands = () => {
                 )}
             </div>
             <div className='hovereff' data-aos="flip-left">
-                {!imageLoaded.landRover && (
-                    <BlurhashCanvas
-                        hash="LMI~A1t7^+s;%ft7V@WB~WWB_3kB"
-                        width={200}
-                        height={200}
-                        punch={1}
-                    />
-                )}
+                
                 <img
                     src={`${process.env.PUBLIC_URL}/Images/land-rover.png`}
                     alt=''
@@ -153,14 +118,7 @@ let Brands = () => {
                 )}
             </div>
             <div className='hovereff' data-aos="flip-left">
-                {!imageLoaded.volvo && (
-                    <BlurhashCanvas
-                        hash="LGNK9jt7xutR?bt7WWof~poejEo0"
-                        width={200}
-                        height={200}
-                        punch={1}
-                    />
-                )}
+                
                 <img
                     src={`${process.env.PUBLIC_URL}/Images/volvo.png`}
                     alt=''
