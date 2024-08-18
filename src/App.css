@@ -187,6 +187,24 @@ ul{
 {
   opacity: 100%;
 }
+.loading-div{
+  height: 100px;
+  width: 100px;
+  border-top: var(--first) 5px solid;
+  border-left: var(--third) 5px solid;
+  border-right: var(--third) 5px solid;
+  border-bottom: var(--third) 5px solid;
+  border-radius: 50%;
+  animation: loading-ani infinite linear 2s;
+}
+@keyframes loading-ani {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
 @keyframes headingani {
   0%
   {

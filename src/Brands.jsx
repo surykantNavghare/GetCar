@@ -1,13 +1,186 @@
+import React, { useState } from 'react';
+import { BlurhashCanvas } from 'react-blurhash';
+
 let Brands = () => {
-    return <>
+    const [imageLoaded, setImageLoaded] = useState({
+        bmw: false,
+        audi: false,
+        mercedes: false,
+        rollsRoyce: false,
+        landRover: false,
+        volvo: false,
+    });
+
+    const handleImageLoad = (brand) => {
+        setImageLoaded(prevState => ({
+            ...prevState,
+            [brand]: true
+        }));
+    };
+
+    return (
         <div className='display2'>
-            <div className='hovereff' data-aos="flip-left"><img src={`${process.env.PUBLIC_URL}/Images/bmw-logo.png`} alt='' className='img logo' style={{ width: '200px' }} /><img src={`${process.env.PUBLIC_URL}/Images/X7.png`}  alt='...' className='carimg' style={{ position: 'absolute', transform: 'translateX(-80%) scale(1.2) translateY(-5%)' }} /></div>
-            <div className='hovereff' data-aos="flip-left"><img src={`${process.env.PUBLIC_URL}/Images/audi.png`} alt='' className='logo' style={{ height: '100px', width: '200px', marginTop: '25%' }} /><img src={`${process.env.PUBLIC_URL}/Images/A4.png`} alt='' className='carimg' style={{ position: 'absolute', transform: 'translateX(-80%) scale(1.2)' }} /></div>
-            <div className='hovereff' data-aos="flip-left"><img src={`${process.env.PUBLIC_URL}/Images/mercedes.png`} alt='' className='img logo' style={{ width: '200px' }} /><img src={`${process.env.PUBLIC_URL}/Images/gclass.png`} alt='...' className='carimg' style={{ position: 'absolute', transform: 'translateX(-80%) scale(1.2)' }} /></div>
-            <div className='hovereff' data-aos="flip-left"><img src={`${process.env.PUBLIC_URL}/Images/rolls-royce.png`} alt='' className='img logo' style={{ width: '150px' }} /><img src={`${process.env.PUBLIC_URL}/Images/cullinan.png`} alt='...' className='carimg' style={{ position: 'absolute', transform: 'translateX(-80%)' }} /></div>
-            <div className='hovereff' data-aos="flip-left"><img src={`${process.env.PUBLIC_URL}/Images/land-rover.png`} alt='' className='logo' style={{ height: '150px', width: '200px', marginTop: '20%' }} /><img src={`${process.env.PUBLIC_URL}/Images/defender.png`} alt='...' className='carimg' style={{ position: 'absolute', transform: 'translateX(-80%) scale(1.5)' }} /></div>
-            <div className='hovereff' data-aos="flip-left"><img src={`${process.env.PUBLIC_URL}/Images/volvo.png`} alt='' className='img logo' style={{ width: '200px' }} /><img src={`${process.env.PUBLIC_URL}/Images/XC60.png`} alt='...' className='carimg' style={{ position: 'absolute', transform: 'translateX(-80%)' }} /></div>
+            <div className='hovereff' data-aos="flip-left">
+                {!imageLoaded.bmw && (
+                    <BlurhashCanvas
+                        hash="LTIFGC%M-PV@?bbIRjxZ=^V@_Na}"
+                        width={200}
+                        height={200}
+                        punch={1}
+                    />
+                )}
+                <img
+                    src={`${process.env.PUBLIC_URL}/Images/bmw-logo.png`}
+                    alt=''
+                    className='img logo'
+                    style={{ width: '200px', display: imageLoaded.bmw ? 'block' : 'none' }}
+                    loading="lazy"
+                    onLoad={() => handleImageLoad('bmw')}
+                />
+                {imageLoaded.bmw && (<img
+                    src={`${process.env.PUBLIC_URL}/Images/X7.png`}
+                    alt='...'
+                    className='carimg'
+                    style={{ position: 'absolute', transform: 'translateX(-10%) scale(1.2) translateY(-90%)' }}
+                    loading="lazy"
+                />)}
+            </div>
+            <div className='hovereff' data-aos="flip-left">
+                {!imageLoaded.audi && (
+                    <BlurhashCanvas
+                        hash="LKM@ZTt6~qoz%MofkCayE2bHt5ad"
+                        width={200}
+                        height={200}
+                        punch={1}
+                    />
+                )}
+                <img
+                    src={`${process.env.PUBLIC_URL}/Images/audi.png`}
+                    alt=''
+                    className='logo'
+                    style={{ height: '100px', width: '200px', marginTop: '25%', display: imageLoaded.audi ? 'block' : 'none' }}
+                    loading="lazy"
+                    onLoad={() => handleImageLoad('audi')}
+                />
+                {imageLoaded.audi && (
+                    <img
+                    src={`${process.env.PUBLIC_URL}/Images/A4.png`}
+                    alt=''
+                    className='carimg'
+                    style={{ position: 'absolute', transform: 'translateX(-0%) scale(1.2) translateY(-70%)' }}
+                    loading="lazy"
+                />)}
+            </div>
+            <div className='hovereff' data-aos="flip-left">
+                {!imageLoaded.mercedes && (
+                    <BlurhashCanvas
+                        hash="L6PZfSi_.AyE_3t7t7R**0o#DgR4"
+                        width={200}
+                        height={200}
+                        punch={1}
+                    />
+                )}
+                <img
+                    src={`${process.env.PUBLIC_URL}/Images/mercedes.png`}
+                    alt=''
+                    className='img logo'
+                    style={{ width: '200px', display: imageLoaded.mercedes ? 'block' : 'none' }}
+                    loading="lazy"
+                    onLoad={() => handleImageLoad('mercedes')}
+                />
+                {imageLoaded.mercedes && (
+                    <img
+                    src={`${process.env.PUBLIC_URL}/Images/gclass.png`}
+                    alt='...'
+                    className='carimg'
+                    style={{ position: 'absolute', transform: 'translateX(-15%) scale(1.2) translateY(-90%)' }}
+                    loading="lazy"
+                />
+                )}
+            </div>
+            <div className='hovereff' data-aos="flip-left">
+                {!imageLoaded.rollsRoyce && (
+                    <BlurhashCanvas
+                        hash="L6PZfSi_.AyE_3t7t7R**0o#DgR4"
+                        width={200}
+                        height={200}
+                        punch={1}
+                    />
+                )}
+                <img
+                    src={`${process.env.PUBLIC_URL}/Images/rolls-royce.png`}
+                    alt=''
+                    className='img logo'
+                    style={{ width: '150px', display: imageLoaded.rollsRoyce ? 'block' : 'none' }}
+                    loading="lazy"
+                    onLoad={() => handleImageLoad('rollsRoyce')}
+                />
+                {imageLoaded.rollsRoyce && (
+                    <img
+                    src={`${process.env.PUBLIC_URL}/Images/cullinan.png`}
+                    alt='...'
+                    className='carimg'
+                    style={{ position: 'absolute', transform: 'translateX(-30%) translateY(-90%)' }}
+                    loading="lazy"
+                />
+                )}
+            </div>
+            <div className='hovereff' data-aos="flip-left">
+                {!imageLoaded.landRover && (
+                    <BlurhashCanvas
+                        hash="LMI~A1t7^+s;%ft7V@WB~WWB_3kB"
+                        width={200}
+                        height={200}
+                        punch={1}
+                    />
+                )}
+                <img
+                    src={`${process.env.PUBLIC_URL}/Images/land-rover.png`}
+                    alt=''
+                    className='logo'
+                    style={{ height: '150px', width: '200px', marginTop: '20%', display: imageLoaded.landRover ? 'block' : 'none' }}
+                    loading="lazy"
+                    onLoad={() => handleImageLoad('landRover')}
+                />
+                {imageLoaded.landRover && (
+                    <img
+                    src={`${process.env.PUBLIC_URL}/Images/defender.png`}
+                    alt='...'
+                    className='carimg'
+                    style={{ position: 'absolute', transform: 'translateX(-20%) scale(1.3) translateY(-80%)' }}
+                    loading="lazy"
+                />
+                )}
+            </div>
+            <div className='hovereff' data-aos="flip-left">
+                {!imageLoaded.volvo && (
+                    <BlurhashCanvas
+                        hash="LGNK9jt7xutR?bt7WWof~poejEo0"
+                        width={200}
+                        height={200}
+                        punch={1}
+                    />
+                )}
+                <img
+                    src={`${process.env.PUBLIC_URL}/Images/volvo.png`}
+                    alt=''
+                    className='img logo'
+                    style={{ width: '200px', display: imageLoaded.volvo ? 'block' : 'none' }}
+                    loading="lazy"
+                    onLoad={() => handleImageLoad('volvo')}
+                />
+                {imageLoaded.volvo && (
+                    <img
+                    src={`${process.env.PUBLIC_URL}/Images/XC60.png`}
+                    alt='...'
+                    className='carimg'
+                    style={{ position: 'absolute', transform: 'translateX(-20%) translateY(-100%)' }}
+                    loading="lazy"
+                />
+                )}
+            </div>
         </div>
-    </>
+    );
 }
+
 export default Brands;
