@@ -1,0 +1,506 @@
+[
+    {
+        "brand": "Audi",
+        "cars": [
+            {
+                "name": "A4",
+                "price": 4500000,
+                "category": "Sedan",
+                "path": "/Images/Audi/A4.png",
+                "spec": {
+                    "EPA_Classification": "Compact Cars",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric I4",
+                    "Displacement": "2.0 L/121 cu in",
+                    "Horsepower": "201 @ 4200 RPM",
+                    "Torque": "236 @ 1450 RPM",
+                    "Transmission": "AutoShift Manual w/OD, 7 speeds",
+                    "Fuel_Economy_in_mpg": "30 combined / 26 city / 35 highway"
+                }
+            },
+            {
+                "name": "Allroad",
+                "price": 6800000,
+                "category": "SUV",
+                "path": "/Images/Audi/Allroad.png",
+                "spec": {
+                    "EPA_Classification": "Midsize Station Wagons",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric V6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "335 @ 5000 RPM",
+                    "Torque": "369 @ 1370 RPM",
+                    "Transmission": "AutoShift Manual w/OD, 7 speeds",
+                    "Fuel_Economy_in_mpg": "25 combined / 22 city / 30 highway"
+                }
+            },
+            {
+                "name": "E-Tron",
+                "price": 10000000,
+                "category": "Coupe",
+                "path": "/Images/Audi/E-Tron.png",
+                "spec": {
+                    "EPA_Classification": "Midsize Cars",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Electric",
+                    "Horsepower": "469",
+                    "Torque": "464",
+                    "Transmission": "Automatic, 2 speeds"
+                }
+            },
+            {
+                "name": "Q8",
+                "price": 10500000,
+                "category": "SUV",
+                "path": "/Images/Audi/q8.png",
+                "spec": {
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric V6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "335 @ 5700 RPM",
+                    "Torque": "369 @ 2800 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "19 combined / 17 city / 23 highway"
+                }
+            },
+            {
+                "name": "R8",
+                "price": 25000000,
+                "category": "Coupe",
+                "path": "/Images/Audi/R8coupe.png",
+                "spec": {
+                    "EPA_Classification": "Two Seaters",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Premium Unleaded V10",
+                    "Displacement": "5.2 L/318 cu in",
+                    "Horsepower": "602 @ 8100 RPM",
+                    "Torque": "413 @ 6700 RPM",
+                    "Transmission": "AutoShift Manual w/OD, 7 speeds",
+                    "Fuel_Economy_in_mpg": "15 combined / 13 city / 18 highway"
+                }
+            },
+            {
+                "name": "TT",
+                "price": 6500000,
+                "category": "Coupe",
+                "path": "/Images/Audi/TTcoupe.png",
+                "spec": {
+                    "EPA_Classification": "Subcompact Cars",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I4",
+                    "Displacement": "2.0 L/121 cu in",
+                    "Horsepower": "228 @ 4500 RPM",
+                    "Torque": "258 @ 1600 RPM",
+                    "Transmission": "AutoShift Manual w/OD, 7 speeds",
+                    "Fuel_Economy_in_mpg": "25 combined / 23 city / 30 highway"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "BMW",
+        "cars": [
+            {
+                "name": "4 Series",
+                "price": 5500000,
+                "category": "Coupe",
+                "path": "/Images/BMW/4series.png",
+                "spec": {
+                    "EPA_Classification": "Subcompact Cars",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "255 @ 5000 RPM",
+                    "Torque": "295 @ 1550 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "28 combined / 25 city / 34 highway"
+                }
+            },
+            {
+                "name": "7 Series",
+                "price": 18500000,
+                "category": "Sedan",
+                "path": "/Images/BMW/7series.png",
+                "spec": {
+                    "EPA_Classification": "Large Cars",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric I6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "375 @ 5200 RPM",
+                    "Torque": "383 @ 1850 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "27 combined / 25 city / 31 highway"
+                }
+            },
+            {
+                "name": "Grand Lasso",
+                "price": 6500000,
+                "category": "Coupe",
+                "path": "/Images/BMW/grandlassocoupe.png",
+                "spec": {
+                    "EPA_Classification": "Midsize Luxury Sedan",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "345 @ 5500 RPM",
+                    "Torque": "369 @ 1750 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "21 combined / 16 city / 24 highway"
+                }
+            },
+            {
+                "name": "M2",
+                "price": 9000000,
+                "category": "Coupe",
+                "path": "/Images/BMW/M2coupe.png",
+                "spec": {
+                    "EPA_Classification": "Subcompact Cars",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "453 @ 6250 RPM",
+                    "Torque": "406 @ 2350 RPM",
+                    "Transmission": "Manual w/OD, 6 speeds",
+                    "Fuel_Economy_in_mpg": "21 combined / 17 city / 26 highway"
+                }
+            },
+            {
+                "name": "X7",
+                "price": 12500000,
+                "category": "SUV",
+                "path": "/Images/BMW/X7.png",
+                "spec": {
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric I6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "375 @ 5200 RPM",
+                    "Torque": "398 @ 1850 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "22 combined / 21 city / 26 highway"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "Land Rover",
+        "cars": [
+            {
+                "name": "Defender",
+                "price": 10000000,
+                "category": "SUV",
+                "path": "/Images/LandRover/defender.png",
+                "spec": {
+                    "Drivetrain": "Four Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "296 @ 5500 RPM",
+                    "Torque": "295 @ 1500 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "19 combined / 18 city / 21 highway"
+                }
+            },
+            {
+                "name": "Discovery",
+                "price": 6500000,
+                "category": "SUV",
+                "path": "/Images/LandRover/discovry.png",
+                "spec": {   
+                    "EPA_Classification": "Large SUV",
+                    "Drivetrain": "Four Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "355 @ 5500 RPM",
+                    "Torque": "365 @ 1500 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "20 combined / 17 city / 21 highway"
+                }
+            },
+            {
+                "name": "Evoque",
+                "price": 6500000,
+                "category": "SUV",
+                "path": "/Images/LandRover/evoque.png",
+                "spec": {
+                    "EPA_Classification": "Compact SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "246 @ 5500 RPM",
+                    "Torque": "269 @ 1300 RPM",
+                    "Transmission": "Automatic w/OD, 9 speeds",
+                    "Fuel_Economy_in_mpg": "24 combined / 21 city / 30 highway"
+                }
+            },
+            {
+                "name": "Range Rover",
+                "price": 6800000,
+                "category": "SUV",
+                "path": "/Images/LandRover/rangerover.png",
+                "spec": {
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric I6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "395 @ 5500 RPM",
+                    "Torque": "406 @ 2000 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "21 combined / 18 city / 26 highway"
+                }
+            },
+            {
+                "name": "Velar",
+                "price": 9000000,
+                "category": "SUV",
+                "path": "/Images/LandRover/velar.png",
+                "spec": {
+                    "EPA_Classification": "Midsize SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "247 @ 5500 RPM",
+                    "Torque": "269 @ 1300 RPM",
+                    "Transmission": "Automatic w/OD, 8 speeds",
+                    "Fuel_Economy_in_mpg": "22 combined / 20 city / 27 highway"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "Mercedes",
+        "cars": [
+            {
+                "name": "A class",
+                "price": 4600000,
+                "category": "Sedan",
+                "path": "/Images/Mercedes/aclasslimosine.png",
+                "spec": {
+                    "EPA_Classification": "Subcompact Cars",
+                    "Drivetrain": "Front Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Premium Unleaded I4",
+                    "Displacement": "2.0 L/121 cu in",
+                    "Horsepower": "188 @ 5800 RPM",
+                    "Torque": "221 @ 1600 RPM",
+                    "Transmission": "AutoShift Manual w/OD, 7 speeds",
+                    "Fuel_Economy_in_mpg": "28 combined / 24 city / 35 highway"
+                }
+            },
+            {
+                "name": "C class",
+                "price": 6500000,
+                "category": "Sedan",
+                "path": "/Images/Mercedes/cclass.png",
+                "spec": {
+                    "EPA_Classification": "Compact Cars",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "255 @ 5800 RPM",
+                    "Torque": "295 @ 2000 RPM",
+                    "Transmission": "Automatic w/OD, 9 speeds",
+                    "Fuel_Economy_in_mpg": "30 combined / 26 city / 36 highway"
+                }
+            },
+            {
+                "name": "EQB",
+                "price": 7500000,
+                "category": "SUV",
+                "path": "/Images/Mercedes/eqb.png",
+                "spec": {
+                    "EPA_Classification": "Full-Size Luxury Sedan",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V8",
+                    "Displacement": "4.0 L/243 cu in",
+                    "Horsepower": "496 @ 5500 RPM",
+                    "Torque": "516 @ 2000 RPM",
+                    "Transmission": "Automatic w/OD, 9 speeds",
+                    "Fuel_Economy_in_mpg": "22 combined / 18 city / 26 highway"
+                }
+            },
+            {
+                "name": "G class (Wagon)",
+                "price": 39000000,
+                "category": "SUV",
+                "path": "/Images/Mercedes/gclass.png",
+                "spec": {
+                    "EPA_Classification": "Large SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V8",
+                    "Displacement": "4.0 L/243 cu in",
+                    "Horsepower": "577 @ 6000 RPM",
+                    "Torque": "627 @ 2500 RPM",
+                    "Transmission": "Automatic w/OD, 9 speeds",
+                    "Fuel_Economy_in_mpg": "15 combined / 12 city / 17 highway"
+                }
+            },
+            {
+                "name": "GLS",
+                "price": 12500000,
+                "category": "SUV",
+                "path": "/Images/Mercedes/gls.png",
+                "spec": {
+                    "EPA_Classification": "Large SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Intercooled Turbo Gas/Electric I6",
+                    "Displacement": "3.0 L/183 cu in",
+                    "Horsepower": "362 @ 5500 RPM",
+                    "Torque": "369 @ 1600 RPM",
+                    "Transmission": "Automatic w/OD, 9 speeds",
+                    "Fuel_Economy_in_mpg": "20 combined / 18 city / 22 highway"
+                }
+            },
+            {
+                "name": "S class Maybach",
+                "price": 17700000,
+                "category": "Sedan",
+                "path": "/Images/Mercedes/sclassmayback.png",
+                "spec": {
+                    "EPA_Classification": "Full-Size Luxury Sedan",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V12",
+                    "Displacement": "6.0 L/366 cu in",
+                    "Horsepower": "621 @ 5000 RPM",
+                    "Torque": "738 @ 2000 RPM",
+                    "Transmission": "Automatic w/OD, 7 speeds",
+                    "Fuel_Economy_in_mpg": "15 combined / 12 city / 20 highway"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "Rolls Royce",
+        "cars": [
+            {
+                "name": "Cullinan",
+                "price": 74500000,
+                "category": "SUV",
+                "path": "/Images/RollsRoyce/cullinan.png",
+                "spec": {
+                    "EPA_Classification": "Large SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V12",
+                    "Displacement": "6.7 L/412 cu in",
+                    "Horsepower": "563 @ 5000 RPM",
+                    "Torque": "627 @ 1700 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "14 combined / 12 city / 19 highway"
+                }
+            },
+            {
+                "name": "Dawn",
+                "price": 68000000,
+                "category": "Coupe",
+                "path": "/Images/RollsRoyce/dawn.png",
+                "spec": {
+                    "EPA_Classification": "Compact Cars",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V12",
+                    "Displacement": "6.6 L/402 cu in",
+                    "Horsepower": "563 @ 5250 RPM",
+                    "Torque": "605 @ 1500 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "14 combined / 12 city / 18 highway"
+                }
+            },
+            {
+                "name": "Ghost",
+                "price": 70000000,
+                "category": "Coupe",
+                "path": "/Images/RollsRoyce/ghost.png",
+                "spec": {
+                    "EPA_Classification": "Full-Size Luxury Sedan",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V12",
+                    "Displacement": "6.75 L/412 cu in",
+                    "Horsepower": "563 @ 5000 RPM",
+                    "Torque": "627 @ 1600 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "15 combined / 13 city / 18 highway"
+                }
+            },
+            {
+                "name": "Phantom",
+                "price": 105000000,
+                "category": "Sedan",
+                "path": "/Images/RollsRoyce/phantom.png",
+                "spec": {
+                    "EPA_Classification": "Full-Size Luxury Sedan",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V12",
+                    "Displacement": "6.75 L/412 cu in",
+                    "Horsepower": "563 @ 5000 RPM",
+                    "Torque": "664 @ 1700 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "15 combined / 12 city / 20 highway"
+                }
+            },
+            {
+                "name": "Wreath",
+                "price": 725000000,
+                "category": "Coupe",
+                "path": "/Images/RollsRoyce/wreath.png",
+                "spec": {
+                    "EPA_Classification": "Compact Luxury Coupe",
+                    "Drivetrain": "Rear Wheel Drive",
+                    "Engine_Type": "Twin Turbo Premium Unleaded V12",
+                    "Displacement": "6.6 L/402 cu in",
+                    "Horsepower": "624 @ 5600 RPM",
+                    "Torque": "605 @ 1500 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "15 combined / 12 city / 18 highway"
+                }
+            }
+        ]
+    },
+    {
+        "brand": "Volvo",
+        "cars": [
+            {
+                "name": "S 90",
+                "price": 6800000,
+                "category": "Sedan",
+                "path": "/Images/Volvo/S90.png",
+                "spec": {
+                    "EPA_Classification": "Compact Cars",
+                    "Drivetrain": "Front Wheel Drive",
+                    "Engine_Type": "Turbocharged Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "250 @ 5500 RPM",
+                    "Torque": "258 @ 4500 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "25 combined / 21 city / 32 highway"
+                }
+            },
+            {
+                "name": "XC60",
+                "price": 6800000,
+                "category": "SUV",
+                "path": "/Images/Volvo/XC60.png",
+                "spec": {
+                    "EPA_Classification": "Midsize SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Turbocharged and Supercharged Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "316 @ 5700 RPM",
+                    "Torque": "295 @ 2200 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "22 combined / 20 city / 28 highway"
+                }
+            },
+            {
+                "name": "XC90",
+                "price": 10000000,
+                "category": "SUV",
+                "path": "/Images/Volvo/XC90.png",
+                "spec": {
+                    "EPA_Classification": "Large SUV",
+                    "Drivetrain": "All Wheel Drive",
+                    "Engine_Type": "Turbocharged and Supercharged Premium Unleaded I4",
+                    "Displacement": "2.0 L/122 cu in",
+                    "Horsepower": "316 @ 5700 RPM",
+                    "Torque": "295 @ 2200 RPM",
+                    "Transmission": "8-speed Automatic w/OD",
+                    "Fuel_Economy_in_mpg": "22 combined / 20 city / 28 highway"
+                }
+            }
+        ]
+    }
+]

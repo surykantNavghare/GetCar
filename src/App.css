@@ -197,6 +197,11 @@ ul{
   border-radius: 50%;
   animation: loading-ani infinite linear 2s;
 }
+table tr td,th{
+  padding: 10px;
+  margin: 10px;
+  border: var(--third) solid 1px;
+}
 @keyframes loading-ani {
   from{
     transform: rotateZ(0deg);
