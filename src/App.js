@@ -8,6 +8,7 @@ import Service from './components/Service';
 import Payment from './components/Payment';
 import BrandTemplate from './components/BrandCarsTemplate';
 import CarTemplate from './components/CarTemplate';
+import ShowCart from './components/ShowCart';
 import allcars from './JSON/Allcars.json';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -116,7 +117,7 @@ function App() {
                 <Link className="links" to="/">Home</Link>
                 <Link className="links" to="/about">About</Link>
                 <Link className="links" to="/service">Service</Link>
-                <Link className="links" to="/payment">Payment</Link>
+                <Link className="links" to="/showcart">Cart</Link>
               </Box>
             </Toolbar>
           </Container>
@@ -135,6 +136,7 @@ function App() {
               <Route key={brandCars.name} path={`/${all.brand}/${brandCars.name}`} element={<CarTemplate brand={all.brand} brandCars={brandCars} />} />
             ))
           ))}
+          <Route path="/showcart" element={<ShowCart />} />
         </Routes>
       </HashRouter>
       <div className='container-fluid' data-aos="fade-up">

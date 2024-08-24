@@ -1,7 +1,17 @@
 import React from "react";
-
+import { Button } from "@mui/material";
+import { useDispatch } from 'react-redux';
 
 const CarTemplate = ({ brandCars,brand }) => {
+
+    const dispatch = useDispatch();
+
+
+    let addToCart =(brandCars,brand)=>{
+        dispatch({ type: 'ADD_TO_CART',payload:brandCars});
+        alert(`${brand} ${brandCars.name} added to Cart Succesfully !`);
+    }
+
     return (
         <div className="container-fluid">
             <div className="row" data-aos="fade-up">
@@ -12,6 +22,9 @@ const CarTemplate = ({ brandCars,brand }) => {
                             <li className="list-group-item text-center" style={{fontWeight:'bold'}}>{brand} {brandCars.name}</li>
                             <li className="list-group-item"><strong>Price :</strong>Rs.{brandCars.price}</li>
                             <li className="list-group-item"><strong>Category :</strong> {brandCars.category}</li>
+                            <li className="list-group-item"><Button onClick={()=>addToCart(brandCars,brand)}>
+                    Add to Cart
+                    </Button></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +73,9 @@ const CarTemplate = ({ brandCars,brand }) => {
                             <td>{brandCars.spec.Fuel_Economy_in_mpg}</td>
                         </tr>
                     </table>
+                    
                 </div>
+                
             </div>
         </div>
 

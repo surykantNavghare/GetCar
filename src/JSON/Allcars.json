@@ -4,6 +4,7 @@
         "cars": [
             {
                 "name": "A4",
+                "brand": "Audi",
                 "price": 4500000,
                 "category": "Sedan",
                 "path": "/Images/Audi/A4.png",
@@ -20,6 +21,7 @@
             },
             {
                 "name": "Allroad",
+                "brand": "Audi",
                 "price": 6800000,
                 "category": "SUV",
                 "path": "/Images/Audi/Allroad.png",
@@ -36,6 +38,7 @@
             },
             {
                 "name": "E-Tron",
+                "brand": "Audi",
                 "price": 10000000,
                 "category": "Coupe",
                 "path": "/Images/Audi/E-Tron.png",
@@ -50,6 +53,7 @@
             },
             {
                 "name": "Q8",
+                "brand": "Audi",
                 "price": 10500000,
                 "category": "SUV",
                 "path": "/Images/Audi/q8.png",
@@ -65,6 +69,7 @@
             },
             {
                 "name": "R8",
+                "brand": "Audi",
                 "price": 25000000,
                 "category": "Coupe",
                 "path": "/Images/Audi/R8coupe.png",
@@ -81,6 +86,7 @@
             },
             {
                 "name": "TT",
+                "brand": "Audi",
                 "price": 6500000,
                 "category": "Coupe",
                 "path": "/Images/Audi/TTcoupe.png",
@@ -102,6 +108,7 @@
         "cars": [
             {
                 "name": "4 Series",
+                "brand": "BMW",
                 "price": 5500000,
                 "category": "Coupe",
                 "path": "/Images/BMW/4series.png",
@@ -118,6 +125,7 @@
             },
             {
                 "name": "7 Series",
+                "brand": "BMW",
                 "price": 18500000,
                 "category": "Sedan",
                 "path": "/Images/BMW/7series.png",
@@ -134,6 +142,7 @@
             },
             {
                 "name": "Grand Lasso",
+                "brand": "BMW",
                 "price": 6500000,
                 "category": "Coupe",
                 "path": "/Images/BMW/grandlassocoupe.png",
@@ -150,6 +159,7 @@
             },
             {
                 "name": "M2",
+                "brand": "BMW",
                 "price": 9000000,
                 "category": "Coupe",
                 "path": "/Images/BMW/M2coupe.png",
@@ -166,6 +176,7 @@
             },
             {
                 "name": "X7",
+                "brand": "BMW",
                 "price": 12500000,
                 "category": "SUV",
                 "path": "/Images/BMW/X7.png",
@@ -186,6 +197,7 @@
         "cars": [
             {
                 "name": "Defender",
+                "brand": "Land Rover",
                 "price": 10000000,
                 "category": "SUV",
                 "path": "/Images/LandRover/defender.png",
@@ -201,6 +213,7 @@
             },
             {
                 "name": "Discovery",
+                "brand": "Land Rover",
                 "price": 6500000,
                 "category": "SUV",
                 "path": "/Images/LandRover/discovry.png",
@@ -217,6 +230,7 @@
             },
             {
                 "name": "Evoque",
+                "brand": "Land Rover",
                 "price": 6500000,
                 "category": "SUV",
                 "path": "/Images/LandRover/evoque.png",
@@ -233,6 +247,7 @@
             },
             {
                 "name": "Range Rover",
+                "brand": "Land Rover",
                 "price": 6800000,
                 "category": "SUV",
                 "path": "/Images/LandRover/rangerover.png",
@@ -248,6 +263,7 @@
             },
             {
                 "name": "Velar",
+                "brand": "Land Rover",
                 "price": 9000000,
                 "category": "SUV",
                 "path": "/Images/LandRover/velar.png",
@@ -269,6 +285,7 @@
         "cars": [
             {
                 "name": "A class",
+                "brand": "Mercedes",
                 "price": 4600000,
                 "category": "Sedan",
                 "path": "/Images/Mercedes/aclasslimosine.png",
@@ -285,6 +302,7 @@
             },
             {
                 "name": "C class",
+                "brand": "Mercedes",
                 "price": 6500000,
                 "category": "Sedan",
                 "path": "/Images/Mercedes/cclass.png",
@@ -301,6 +319,7 @@
             },
             {
                 "name": "EQB",
+                "brand": "Mercedes",
                 "price": 7500000,
                 "category": "SUV",
                 "path": "/Images/Mercedes/eqb.png",
@@ -317,6 +336,7 @@
             },
             {
                 "name": "G class (Wagon)",
+                "brand": "Mercedes",
                 "price": 39000000,
                 "category": "SUV",
                 "path": "/Images/Mercedes/gclass.png",
@@ -333,6 +353,7 @@
             },
             {
                 "name": "GLS",
+                "brand": "Mercedes",
                 "price": 12500000,
                 "category": "SUV",
                 "path": "/Images/Mercedes/gls.png",
@@ -349,6 +370,7 @@
             },
             {
                 "name": "S class Maybach",
+                "brand": "Mercedes",
                 "price": 17700000,
                 "category": "Sedan",
                 "path": "/Images/Mercedes/sclassmayback.png",
@@ -370,6 +392,7 @@
         "cars": [
             {
                 "name": "Cullinan",
+                "brand": "Rolls Royce",
                 "price": 74500000,
                 "category": "SUV",
                 "path": "/Images/RollsRoyce/cullinan.png",
@@ -386,6 +409,7 @@
             },
             {
                 "name": "Dawn",
+                "brand": "Rolls Royce",
                 "price": 68000000,
                 "category": "Coupe",
                 "path": "/Images/RollsRoyce/dawn.png",
@@ -402,6 +426,7 @@
             },
             {
                 "name": "Ghost",
+                "brand": "Rolls Royce",
                 "price": 70000000,
                 "category": "Coupe",
                 "path": "/Images/RollsRoyce/ghost.png",
@@ -418,6 +443,7 @@
             },
             {
                 "name": "Phantom",
+                "brand": "Rolls Royce",
                 "price": 105000000,
                 "category": "Sedan",
                 "path": "/Images/RollsRoyce/phantom.png",
@@ -434,6 +460,7 @@
             },
             {
                 "name": "Wreath",
+                "brand": "Rolls Royce",
                 "price": 725000000,
                 "category": "Coupe",
                 "path": "/Images/RollsRoyce/wreath.png",
@@ -455,6 +482,7 @@
         "cars": [
             {
                 "name": "S 90",
+                "brand": "Volvo",
                 "price": 6800000,
                 "category": "Sedan",
                 "path": "/Images/Volvo/S90.png",
@@ -471,6 +499,7 @@
             },
             {
                 "name": "XC60",
+                "brand": "Volvo",
                 "price": 6800000,
                 "category": "SUV",
                 "path": "/Images/Volvo/XC60.png",
@@ -487,6 +516,7 @@
             },
             {
                 "name": "XC90",
+                "brand": "Volvo",
                 "price": 10000000,
                 "category": "SUV",
                 "path": "/Images/Volvo/XC90.png",
