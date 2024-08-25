@@ -88,7 +88,7 @@ function App() {
                     <Link className="links" to="/service">Service</Link>
                   </MenuItem>
                   <MenuItem onClick={handleCloseNavMenu}>
-                    <Link className="links" to="/payment">Payment</Link>
+                    <Link className="links" to="/showcart">Cart</Link>
                   </MenuItem>
                 </Menu>
               </Box>

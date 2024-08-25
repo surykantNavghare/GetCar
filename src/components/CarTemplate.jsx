@@ -1,4 +1,4 @@
-import React from "react";
+import {React,useEffect} from "react";
 import { Button } from "@mui/material";
 import { useDispatch } from 'react-redux';
 
@@ -12,6 +12,10 @@ const CarTemplate = ({ brandCars,brand }) => {
         alert(`${brand} ${brandCars.name} added to Cart Succesfully !`);
     }
 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page when the component loads
+      }, []);
+      
     return (
         <div className="container-fluid">
             <div className="row" data-aos="fade-up">

@@ -2,6 +2,7 @@ import Allcars from '../JSON/Allcars.json'
 import { useNavigate } from 'react-router-dom';
 import { Button } from "@mui/material";
 import {useDispatch } from "react-redux";
+import { useEffect } from 'react';
 
 let PageTemplate = ({ brand }) => {
 
@@ -20,6 +21,9 @@ let PageTemplate = ({ brand }) => {
     alert(`${car.brand} ${car.name} added to cart successfully!`);
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component loads
+  }, []);
 
   return (
     <>
