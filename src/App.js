@@ -33,13 +33,14 @@ function App() {
 
   return (
     <>
-      <HashRouter>
-        <AppBar position="static" style={{ backgroundColor: 'var(--first)', height: '16vh' }}>
+      <HashRouter  >
+        <AppBar position="static" style={{ backgroundColor: 'var(--first)', height: '20vh' }}>
           <Container maxWidth="xl">
             <Toolbar disableGutters>
               <Box sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column', mr: 1 }}>
                 <img src={`${process.env.PUBLIC_URL}/Images/logo.png`} style={{ height: '80px', width: '80px', margin: '0 13px' }} alt='Logo' />
                 <Typography
+              
                   variant="h6"
                   noWrap
                   component={Link}
@@ -51,9 +52,10 @@ function App() {
                     textAlign: 'center',
                     color: 'var(--third)',
                     textDecoration: 'none',
+                  
+
                   }}
-                >
-                  GetCar.com
+                >  GetCar.com
                 </Typography>
               </Box>
 
@@ -92,7 +94,7 @@ function App() {
                   </MenuItem>
                 </Menu>
               </Box>
-
+              
               <Box sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}>
                 <img src={`${process.env.PUBLIC_URL}/Images/logo.png`} style={{ height: '80px', width: '80px' }} alt='Logo' />
               </Box>
@@ -108,6 +110,7 @@ function App() {
                   fontFamily: 'monospace',
                   color: 'var(--third)',
                   textDecoration: 'none',
+                  
                 }}
               >
                 GetCar.com
